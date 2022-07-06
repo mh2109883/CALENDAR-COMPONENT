@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar App</title>
+    <link rel="stylesheet" href="calendar.css">
+</head>
+
+<body class="lightmode">
+    <div class="title">...</div>
+                    <!--Calendar Full Template-->
+    <div class="calendar">
+                            <!--Head-->
+        <div class="head">
+            <span class="monthselector" id="monthselector">July</span>
+            <div class="selectyear">
+                <span class="changeyear" id="prev-year"><pre>&#60;</pre></span>
+                <span id="year">2022</span> 
+                <span class="changeyear" id="next-year"><pre>&#62;</pre></span>
+            </div>
+        </div>
+                            <!--Body-->
+        <div class="body">
+            <div class="weekday">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div class="days"></div>
+        </div>
+                            <!--Foot-->
+        <div class="foot">
+            <div class="toggle">
+                <span>Dark Mode</span>
+                <div class="darkmodebutton">
+                    <div class="dark-mode-button-ident"></div>
+                </div>
+            </div>
+        </div>
+        <div class="monthlists"></div>
+    </div>
+
+    <script src="calendar.js"></script>
+</body>
+
+</html>
